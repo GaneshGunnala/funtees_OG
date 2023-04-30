@@ -9,10 +9,10 @@ const Navbar = () => {
                     </div>
                     {/* <a class="navbar-brand navbarText pad10" href="#">FUNTEES</a> */}
                     <div className="navbarsIcon">
-                    {/* <button class="navbar-toggler" type="button"  aria-controls="offcanvasNavbarLight" aria-label="Toggle navigation"> */}
+                    <button class="navbar-toggler" type="button"  aria-controls="offcanvasNavbarLight" aria-label="Toggle navigation">
                         
                         <a href="/cart"><img src={require('../Images/cart.JPG')} className="icon" href="/cart"></img></a>
-                    {/* </button> */}
+                    </button>
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight" aria-label="Toggle navigation">
                         <img src={require('../Images/menubars.JPG')} className="icon"></img>
                     </button>
