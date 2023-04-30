@@ -3,7 +3,7 @@ import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 import Navbar from "../helpers/Navbar";
 import "./Home.scss";
-import { Helmet } from "react-helmet";
+import Carousal from "../helpers/Carousal";
 const Home = () => {
   return (
     <>
@@ -11,6 +11,7 @@ const Home = () => {
         <div class="">
         <Navbar />
           <main style={{}}>
+            <Carousal />
             <p>Color</p>Hey
           </main>
         </div>
