@@ -5,6 +5,8 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 import routes from "./routes";
 import {Helmet} from "react-helmet";
 import './App.scss';
+import Navbar from "./components/helpers/Navbar";
+import Footer from "./components/helpers/Footer";
 // import ''
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
                 {/* <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> */}
             </Helmet>
       </head>
+      
+    <Navbar />
     <BrowserRouter >
 						<Routes>
 							{routes.map((route, index) => {
@@ -28,6 +32,7 @@ function App() {
                 )}
 						</Routes>
 					</BrowserRouter>
+    <Footer />
       </html>
   );
 }

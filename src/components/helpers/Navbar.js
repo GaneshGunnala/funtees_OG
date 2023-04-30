@@ -18,7 +18,7 @@ const Navbar = () => {
                     </div>
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
                         <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLightLabel">FUNTEES</h5>
+                        <img src={require('../Images/funteesblack.jpg')} className="brandicon"></img>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
