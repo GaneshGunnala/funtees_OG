@@ -4,10 +4,18 @@ const Navbar = () => {
         <div>
             <nav class="navbar bg-body-tertiary" aria-label="Light offcanvas navbar">
                 <div class="container-fluid">
-                    <a class="navbar-brand navbarText pad10" href="#">FUNTEES</a>
+                    <div className="pad10">
+                        <img src={require('../Images/funteeswhite.jpg')} className="brandicon"></img>
+                    </div>
+                    {/* <a class="navbar-brand navbarText pad10" href="#">FUNTEES</a> */}
+                    <div className="navbarsIcon">
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight" aria-label="Toggle navigation">
-                        <img src={require('../images/menubars.JPG')} className="icon"></img>
+                        <img src={require('../Images/cart.JPG')} className="icon"></img>
                     </button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight" aria-label="Toggle navigation">
+                        <img src={require('../Images/menubars.JPG')} className="icon"></img>
+                    </button>
+                    </div>
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
                         <div class="offcanvas-header">
                             <h5 class="offcanvas-title" id="offcanvasNavbarLightLabel">Offcanvas</h5>

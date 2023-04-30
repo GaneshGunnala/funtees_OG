@@ -4,6 +4,15 @@
 }
 
 .container-fluid{
+    justify-content: baseline;
+}
+
+.brandicon{
+    height: 27px;
+    width: 110px;
+}
+
+.container-fluid{
     padding: 0% !important;
 }
 
@@ -15,4 +24,8 @@
     // background-image: url('../images/menubars.JPG');
     height: 20px;
     width: 25px;
+}
+
+.navbarIcons{
+    justify-content: right;
 }
