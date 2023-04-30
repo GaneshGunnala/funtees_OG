@@ -5,13 +5,14 @@ const Navbar = () => {
             <nav class="navbar bg-body-tertiary" aria-label="Light offcanvas navbar">
                 <div class="container-fluid">
                     <div className="pad10">
-                        <img src={require('../Images/funteeswhite.jpg')} className="brandicon"></img>
+                        <a href="/"><img src={require('../Images/funteeswhite.jpg')} className="brandicon"></img></a>
                     </div>
                     {/* <a class="navbar-brand navbarText pad10" href="#">FUNTEES</a> */}
                     <div className="navbarsIcon">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight" aria-label="Toggle navigation">
-                        <img src={require('../Images/cart.JPG')} className="icon"></img>
-                    </button>
+                    {/* <button class="navbar-toggler" type="button"  aria-controls="offcanvasNavbarLight" aria-label="Toggle navigation"> */}
+                        
+                        <a href="/cart"><img src={require('../Images/cart.JPG')} className="icon" href="/cart"></img></a>
+                    {/* </button> */}
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight" aria-label="Toggle navigation">
                         <img src={require('../Images/menubars.JPG')} className="icon"></img>
                     </button>
