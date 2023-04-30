@@ -8,6 +8,7 @@ const Carousal = () => {
         return (
             <div style={{height: "40px !important"}}>
             <Carousel showArrows={true} infiniteLoop={true} autoPlay={true} showThumbs={false} preventMovementUntilSwipeScrollTolerance={true} transitionTime={2}
+            showStatus={false}
             // onChange={{}} onClickItem={{}} onClickThumb={{}}
             >
                 <div>
