@@ -46,11 +46,21 @@ const Navbar = () => {
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact/Vibe With Us</a>
+                                </li>
+                                <li class="nav-item"  >
+                                    <a class="nav-link" href="/aboutus" >
+                                        <div data-bs-dismiss="offcanvas">
+                                        About Us
+                                        </div>
+                                    </a>
+                                </li>
                             </ul>
-                            <form class="d-flex mt-3" role="search">
+                            {/* <form class="d-flex mt-3" role="search">
                                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                                 <button class="btn btn-outline-success" type="submit">Search</button>
-                            </form>
+                            </form> */}
                         </div>
                     </div>
                 </div>
