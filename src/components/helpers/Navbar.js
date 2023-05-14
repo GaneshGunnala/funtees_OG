@@ -47,7 +47,7 @@ const Navbar = () => {
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact/Vibe With Us</a>
+                                    <a class="nav-link" href="/contact">Contact/Vibe With Us</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="/aboutus" >About Us</a>
