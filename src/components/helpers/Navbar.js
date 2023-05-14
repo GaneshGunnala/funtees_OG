@@ -49,12 +49,8 @@ const Navbar = () => {
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Contact/Vibe With Us</a>
                                 </li>
-                                <li class="nav-item"  >
-                                    <a class="nav-link" href="/aboutus" >
-                                        <div data-bs-dismiss="offcanvas">
-                                        About Us
-                                        </div>
-                                    </a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/aboutus" >About Us</a>
                                 </li>
                             </ul>
                             {/* <form class="d-flex mt-3" role="search">
