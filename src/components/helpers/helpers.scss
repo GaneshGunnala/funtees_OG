@@ -1,6 +1,6 @@
 .navbar{
     // background-color: black !important;
-    // padding: 0% !important;
+    padding: 3px !important;
 }
 
 .container-fluid{
@@ -42,4 +42,11 @@ h2{
     height: 40px;
     width: 40px;
     padding: 5px;
+}
+
+.sticky-div{
+    position: sticky;
+    top:0%;
+    background-color: black;
+    z-index: 99999;
 }

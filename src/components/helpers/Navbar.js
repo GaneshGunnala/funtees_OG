@@ -1,7 +1,7 @@
 import "./helpers.scss";
 const Navbar = () => {
     return (
-        <div>
+        <div className="sticky-div">
             <nav class="navbar bg-body-tertiary" aria-label="Light offcanvas navbar">
                 <div class="container-fluid">
                     <div className="pad10">
