@@ -10,7 +10,7 @@ import Footer from "./components/helpers/Footer";
 // import ''
 function App() {
   return (
-    <html>
+    <>
       <head>
       <Helmet>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -33,7 +33,7 @@ function App() {
 						</Routes>
 					</BrowserRouter>
     <Footer />
-      </html>
+    </>
   );
 }
 
